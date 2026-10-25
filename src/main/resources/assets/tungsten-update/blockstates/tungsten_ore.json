@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tungsten-update:block/tungsten_ore"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "condition": "minecraft:tool/can_silk_touch",
+              "name": "tungsten-update:tungsten_ore"
+            },
+            {
+              "type": "minecraft:item",
+              "modifier": [
+                { "type": "minecraft:explosion_decay" }
+              ],
+              "name": "tungsten-update:raw_tungsten"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tungsten-update:blocks/tungsten_ore"
+}

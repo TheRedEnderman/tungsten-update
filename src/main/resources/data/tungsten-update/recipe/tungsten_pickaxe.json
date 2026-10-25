@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "T": "tungsten-update:tungsten_ingot",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "tungsten-update:tungsten_pickaxe",
+    "count": 1
+  }
+}
