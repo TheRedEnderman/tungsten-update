@@ -15,7 +15,14 @@
             {
               "type": "minecraft:item",
               "modifier": [
-                { "type": "minecraft:explosion_decay" }
+                {
+                  "type": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                },
+                {
+                  "type": "minecraft:explosion_decay"
+                }
               ],
               "name": "tungsten-update:raw_tungsten"
             }

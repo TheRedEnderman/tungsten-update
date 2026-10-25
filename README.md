@@ -4,7 +4,7 @@ A Fabric mod for Minecraft 26.3 that adds tungsten. Mod id: `tungsten-update`.
 
 ## Current state
 
-- Tungsten ore (generates underground)
+- Tungsten ore (generates underground, drops 3-7 XP, supports Fortune)
 - Raw tungsten, tungsten ingot, tungsten pickaxe
 - Pickaxe recipe (3 ingots + 2 sticks)
 - Creative tab "Tungsten Update"
@@ -23,7 +23,6 @@ A Fabric mod for Minecraft 26.3 that adds tungsten. Mod id: `tungsten-update`.
 - The tungsten pickaxe texture is missing (shows as purple and black).
 - There is no way to get an ingot in survival (the industrial furnace and the smelting recipe are missing).
 - The pickaxe has worse stats than netherite (1800 durability, enchantability 14) and mines exactly what netherite mines, so it is not yet "superior".
-- The ore does not support Fortune and drops no experience.
 - No deepslate variant of the ore, although it can generate in deepslate.
 - Natural ore generation has not been tested in game yet; balance needs a review (probably too common and too high up).
 - Items are not in the vanilla creative tabs, and the conventional tags are missing (`c:ores`, `c:ingots`, `c:raw_materials`).

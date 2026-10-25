@@ -4,6 +4,8 @@ import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.util.valueproviders.UniformInt;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -19,7 +21,7 @@ public final class ModBlocks {
     public static final Block TUNGSTEN_ORE = Registry.register(
             BuiltInRegistries.BLOCK,
             TUNGSTEN_ORE_BLOCK_KEY,
-            new Block(BlockBehaviour.Properties.of()
+            new DropExperienceBlock(UniformInt.of(3, 7), BlockBehaviour.Properties.of()
                     .strength(7.5F, 3.0F)
                     .requiresCorrectToolForDrops()
                     .setId(TUNGSTEN_ORE_BLOCK_KEY))
