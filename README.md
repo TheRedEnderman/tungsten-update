@@ -30,7 +30,6 @@ Mod Fabric per Minecraft 26.3 che aggiunge il tungsteno. Mod id: `tungsten-updat
 - La ricetta del piccone non ha un advancement che la sblocchi.
 - Mancano le traduzioni dei tag item e la lingua italiana.
 - Mixin di esempio (`ExampleMixin`, `ExampleClientMixin`) da rimuovere: con `defaultRequire: 1` possono far crashare il gioco dopo un aggiornamento.
-- `fabric.mod.json` ha ancora descrizione, autore e link del template.
 - `loom_version` è uno snapshot (`1.18-SNAPSHOT`).
 
 ## Sviluppo
