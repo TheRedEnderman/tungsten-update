@@ -18,6 +18,9 @@ public class TungstenUpdate implements ModInitializer {
     @Override
     public void onInitialize() {
         ModBlocks.initialize();
+        ModBlockEntities.initialize();
+        ModRecipes.initialize();
+        ModMenus.initialize();
         BiomeModifications.addFeature(
                 BiomeSelectors.foundInOverworld(),
                 GenerationStep.Decoration.UNDERGROUND_ORES,

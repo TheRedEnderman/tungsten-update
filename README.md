@@ -8,6 +8,7 @@ A Fabric mod for Minecraft 26.3 that adds tungsten. Mod id: `tungsten-update`.
 - Raw tungsten, tungsten ingot, tungsten pickaxe
 - Pickaxe recipe (3 ingots + 2 sticks)
 - Creative tab "Tungsten Update"
+- Industrial Smelter (creative only for now): works like a blast furnace, but only accepts raw tungsten (input) and lava buckets (fuel), and smelts one ingot per bucket in 2 minutes
 
 ## How it should work in the end
 
@@ -16,12 +17,14 @@ A Fabric mod for Minecraft 26.3 that adds tungsten. Mod id: `tungsten-update`.
 - The ore always takes 2.5 times as long to mine as diamond ore ("too brittle").
 - Nothing made of tungsten burns in lava.
 - Tungsten is a material superior to netherite: the tungsten pickaxe mines the ore and is better than the netherite pickaxe.
-- Raw tungsten can only be smelted into an ingot in the future "industrial furnace".
+- Raw tungsten can only be smelted into an ingot in the Industrial Smelter: one lava bucket and 2 minutes per ingot.
 
 ## Known bugs and to-do
 
 - The tungsten pickaxe texture is missing (shows as purple and black).
-- There is no way to get an ingot in survival (the industrial furnace and the smelting recipe are missing).
+- The Industrial Smelter has no crafting recipe yet (creative only), so ingots cannot be obtained in survival.
+- The Industrial Smelter uses the vanilla blast furnace textures and GUI as placeholders.
+- The Industrial Smelter has no recipe book, so its raw tungsten recipe is not shown in game (a custom recipe book or recipe viewer support is not implemented).
 - The pickaxe has worse stats than netherite (1800 durability, enchantability 14) and mines exactly what netherite mines, so it is not yet "superior".
 - No deepslate variant of the ore, although it can generate in deepslate.
 - Natural ore generation has not been tested in game yet; balance needs a review (probably too common and too high up).

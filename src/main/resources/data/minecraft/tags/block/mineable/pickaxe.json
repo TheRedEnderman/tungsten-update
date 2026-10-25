@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tungsten-update:tungsten_ore"
+    "tungsten-update:tungsten_ore",
+    "tungsten-update:industrial_smelter"
   ]
 }

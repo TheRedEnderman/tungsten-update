@@ -1,7 +1,9 @@
 {
-    "item.tungsten-update.tungsten_ingot":  "Tungsten Ingot",
-    "itemGroup.tungsten-update.tungsten":  "Tungsten Update",
-    "block.tungsten-update.tungsten_ore":  "Tungsten Ore",
-    "item.tungsten-update.raw_tungsten":  "Raw Tungsten",
-    "item.tungsten-update.tungsten_pickaxe":  "Tungsten Pickaxe"
+  "item.tungsten-update.tungsten_ingot": "Tungsten Ingot",
+  "itemGroup.tungsten-update.tungsten": "Tungsten Update",
+  "block.tungsten-update.tungsten_ore": "Tungsten Ore",
+  "block.tungsten-update.industrial_smelter": "Industrial Smelter",
+  "container.tungsten-update.industrial_smelter": "Industrial Smelter",
+  "item.tungsten-update.raw_tungsten": "Raw Tungsten",
+  "item.tungsten-update.tungsten_pickaxe": "Tungsten Pickaxe"
 }

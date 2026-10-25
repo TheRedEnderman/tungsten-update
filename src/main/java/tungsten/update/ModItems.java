@@ -70,6 +70,7 @@ public final class ModItems {
                         output.accept(TUNGSTEN_INGOT);
                         output.accept(RAW_TUNGSTEN);
                         output.accept(ModBlocks.TUNGSTEN_ORE);
+                        output.accept(ModBlocks.INDUSTRIAL_SMELTER);
                         output.accept(TUNGSTEN_PICKAXE);
                     })
                     .build()

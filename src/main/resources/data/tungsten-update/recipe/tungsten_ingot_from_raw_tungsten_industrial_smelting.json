@@ -1,0 +1,9 @@
+{
+  "type": "tungsten-update:industrial_smelting",
+  "ingredient": "tungsten-update:raw_tungsten",
+  "result": {
+    "id": "tungsten-update:tungsten_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 2400
+}
