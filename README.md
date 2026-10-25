@@ -40,6 +40,10 @@ Requires Java 25.
 - `.\gradlew runServer` starts a test server
 - `.\gradlew build` builds the jar into `build\libs\`
 
+## Bug reports
+
+Found a bug or a problem? Message me on Discord: `.enderman_.`
+
 ## License
 
 CC0-1.0
