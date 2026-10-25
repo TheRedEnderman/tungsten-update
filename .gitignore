@@ -39,6 +39,6 @@ replay_*.log
 *.hprof
 *.jfr
 
-# backup manuali (ora c'e git)
+# manual backups (git is used now)
 backup/
 Backup_*/
